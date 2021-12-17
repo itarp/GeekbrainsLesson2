@@ -111,7 +111,7 @@ int main (int argv, char *argc[]) {
     struct Player {
       unsigned int iId; // Идентификатор игрока
       char caName [32]; //Имя игрока
-      int aScore; //Счет выигрышей игрока
+      int iScore; //Счет выигрышей игрока
       Chips chip; //Какой фишкой играет игрок X или O
       PlayerType Type; //Тип игрока Комьютер или Человек
       IPv4 networkAddress; //Сетевой адрес игрока
